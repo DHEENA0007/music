@@ -106,3 +106,4 @@ The backend is built with Django and Django REST Framework and provides:
 - Required Python packages in requirements.txt
 - Required Flutter packages in pubspec.yaml
 # music
+# music
