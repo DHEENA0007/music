@@ -1,0 +1,48 @@
+# Core Web Framework
+Django==5.2.6
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+python-decouple==3.8
+gunicorn==21.2.0
+Pillow==10.4.0
+
+# Task Queue
+celery==5.5.3
+redis==6.4.0
+
+# Basic RVC / Audio Dependencies
+torch>=2.1.0
+torchaudio>=2.1.0
+soundfile>=0.12.1
+librosa>=0.10.1
+numpy>=1.24.0
+scipy>=1.10.0
+python-dotenv>=1.0.0
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# Extended RVC / ML Dependencies
+fairseq==0.12.2
+omegaconf==2.0.6
+hydra-core==1.0.7
+praat-parselmouth>=0.4.3
+pyworld>=0.3.4
+torchcrepe>=0.0.22
+faiss-cpu>=1.7.4
+av>=11.0.0
+numba>=0.59.0
+
+# Utils / Performance
+tqdm>=4.66.0
+joblib>=1.3.0
+psutil>=5.9.0
+
+# Django extras
+django-filter>=24.2
+drf-yasg>=1.21.7
+
+# Testing / Dev tools
+pytest>=8.0.0
+pytest-django>=4.7.0
+black>=24.0.0
+isort>=5.13.0

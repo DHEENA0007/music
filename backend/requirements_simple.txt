@@ -1,0 +1,19 @@
+Django==5.2.6
+djangorestframework==3.16.1
+celery==5.5.3
+redis==6.4.0
+python-decouple==3.8
+gunicorn==21.2.0
+Pillow==10.4.0
+django-cors-headers==4.9.0
+
+# Basic RVC Dependencies
+torch>=2.1.0
+torchaudio>=2.1.0
+soundfile>=0.12.1
+librosa>=0.10.1
+numpy>=1.24.0
+scipy>=1.10.0
+python-dotenv>=1.0.0
+pydub>=0.25.1
+ffmpeg-python>=0.2.0

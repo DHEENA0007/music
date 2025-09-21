@@ -1,0 +1,23 @@
+# RVC
+Retrieval-based-Voice-Conversion/
+
+# IDE files
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Env
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Django
+*.log
+db.sqlite3
